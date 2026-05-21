@@ -1,0 +1,262 @@
+/*--------BODY--------*/
+body {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  margin: 0;
+}
+
+/*--------HEADER--------*/
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background-color: #2d6844;
+}
+
+/*LIEN*/
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  color: #fdb9db;
+}
+
+/*ICONE*/
+header i {
+  font-size: 150%;
+  color: white;
+}
+
+header .bi-heart:hover {
+  color: rgb(242, 37, 10);
+}
+
+header i:hover {
+  color: #fdb9db;
+}
+
+.bi-search {
+  font-size: 100%;
+  color: black;
+}
+
+/*ELEMENT HEADER*/
+.entete {
+  display: grid;
+  height: auto;
+  width: 97%;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+}
+
+header .logo {
+  width: 4.5vw;
+  padding-right: 0;
+  border-radius: 50px;
+}
+
+.entete form {
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgb(225, 251, 220);
+  border-radius: 50px;
+  padding: 7px 12px;
+  width: 15vw;
+}
+
+.rechercher {
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  color: #1b4d2e;
+}
+
+.rechercher::placeholder {
+  color: #5f7f67;
+}
+.bi-search:hover{
+  color: #5f7f67;
+}
+.icones {
+  justify-self: end;
+  display: flex;
+  gap: 1rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-bottom: 1vw;
+  color: white;
+  font-size: 20px;
+}
+
+/*MAIN*/
+main {
+  background-color: #fff9ef;
+  padding-bottom: 15vh;
+}
+
+/* CARROUSEL COMMUN */
+.carrouInfo {
+  overflow: hidden;
+  background-color: rgb(249, 244, 204);
+  padding: 0.85rem 0;
+}
+
+.carrou_track {
+  display: flex;
+  gap: 20vw;
+  white-space: nowrap;
+  width: max-content;
+  animation: defiler 25s linear infinite;
+}
+
+.carrou, .carrouOiseaux, .carrouPoissons, .carrouReptiles, .carrouFleurs, .carrouPlantes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrou button, .carrouOiseaux button,
+.carrouPoissons button, .carrouReptiles button, .carrouFleurs button, .carrouPlantes button{
+  border: none;
+  background-color: rgba(245, 222, 179, 0);
+}
+
+.gauche button,
+.droite button {
+  font-size: 175%;
+}
+
+.carrouPdt {
+  margin: 3vh 2vw 0 2vw;
+  border: 2px #2d6844 solid;
+  border-radius: 25px;
+  display: flex;
+  width: clamp(200px, 60vw, 700px);
+  height: clamp(300px, 35vh, 350px);
+  background-color: rgba(245, 222, 179, 0.785);
+}
+
+.carrouPdt img {
+  margin: 6px;
+  width: clamp(150px, 30vw, 300px);
+  height: clamp(150px, 30vh, 300px);
+  border: 1px black solid;
+  border-radius: 25px;
+  object-fit: cover;
+  align-self: center;
+}
+
+.carrouPdtTexte {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin: 6px;
+  align-self: center;
+  width: clamp(200px, 35vw, 400px);
+}
+
+.carrouPdtTexte p {
+  padding: 0;
+}
+
+.carrouPdtIcones,
+.carrouPdtIcones button {
+  display: flex;
+  flex-direction: row;
+  font-size: 115%;
+  gap: 0.5rem;
+  align-self: flex-end;
+  padding: 0 1vw 0.5vw 0;
+}
+
+.bestType {
+  color: rgb(128, 121, 121);
+  padding-bottom: 3px;
+}
+
+.bestNom {
+  margin: 0px;
+  font-size: 18px;
+}
+
+.bestPrix {
+  margin: 0px;
+}
+
+.bestDesc {
+  margin-top: 8px;
+}
+
+@keyframes defiler {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/*TITRE*/
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1B4D2E;
+  padding-bottom: 4px;
+}
+
+h3 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #1B4D2E;
+  margin-left: 1vw;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 19px;
+  font-weight: 530;
+  color: #1B4D2E;
+  margin-left: 3vw;
+  margin-bottom: 0;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #191f17;
+  color: white;
+  padding: 1.5vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #fdb9db;
+}
+
+/*ICONE*/
+footer i {
+  font-size: 150%;
+  color: white;
+}
+
+footer i:hover {
+  color: #fdb9db;
+}
+
+footer .logo {
+  width: 7vw;
+  height: auto;
+  border-radius: 50px;
+}

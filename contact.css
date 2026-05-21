@@ -1,0 +1,124 @@
+.logo {
+  border-radius: 50px;
+  width: 100px;
+  display: block;
+  margin: 10px auto;
+}
+
+/* --- Page --- */
+.contact-page {
+  background-color: #F7F4EE;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  color: #3D3428;
+}
+
+/* ---  Formulaire --- */
+.form-wrap {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #EDE8DF;
+  padding: 32px 40px;
+  max-width: 560px;
+  width: 100%;
+}
+
+/*-- Champ obligatoire--*/
+.required {
+  color: #D4527A;
+  margin-left: 2px;
+}
+
+/* --- Titre & sous-titre --- */
+.form-sub {
+  font-size: 14px;
+  color: #6b6459;
+  margin-bottom: 24px;
+}
+
+/* --- Séparateur --- */
+.divider {
+  border: none;
+  border-top: 1px solid #EDE8DF;
+  margin: 20px 0;
+}
+
+/* --- Ligne double (nom + prénom) --- */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 12px; 
+}
+
+/* --- Groupe champ --- */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+/* --- Labels --- */
+label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #3D3428;
+}
+
+/* --- Inputs, select, textarea --- */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #D6D0C8;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #3D3428;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  box-sizing: border-box;
+  
+}
+
+strong {
+  color: #2d5a3d;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #b0a89e;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #2E7D52;
+  box-shadow: 0 0 0 3px rgba(46, 125, 82, 0.12);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 110px;
+}
+
+/* --- Bouton envoi --- */
+.btn-submit {
+  width: 100%;
+  padding: 11px;
+  background-color: #1B4D2E;
+  color: #F7F4EE;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  margin-top: 4px;
+}

@@ -1,0 +1,131 @@
+
+strong {
+  color: #2d5a3d;
+}
+
+h1{
+  margin-left: 2vw;
+}
+.tab-panel {
+  width: min(800px, 100vw);
+}
+
+.tab-panel .carrouPdt {
+  width: min(700px, 100vw);
+  min-height: 280px;
+  height: auto;
+
+}
+
+.tab-panel .carrouPdt img {
+  width: clamp(170px, 15vw, 200px);
+  max-height: 240px;
+}
+
+
+.bi-heart-fill {
+  color: rgb(242, 37, 10);
+}
+
+.bi-cart-fill {
+  color: #1B4D2E;
+}
+
+/* --- Onglets profil --- */
+.profil-tabs {
+  max-width: 700px;
+  margin: 2rem auto;
+}
+
+.tabs-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.tab-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 24px;
+  background: none;
+  border: none;
+  border-radius: 12px 12px 0 0;
+  cursor: pointer;
+  font-size: 13px;
+  color: #3D3428;
+  font-family: Arial, sans-serif;
+    transition: all 0.5s linear;
+
+}
+
+.tab-btn i {
+  font-size: 22px;
+}
+
+.tab-btn:hover {
+  background: #EDE8DF;
+}
+
+.tab-btn.active {
+  background: #ffffff;
+  color: #1B4D2E;
+  border: 1px solid #D6D0C8;
+  border-bottom: none;
+}
+
+/* --- Panneau de contenu --- */
+.tab-panel {
+  display: none;
+  background: #ffffff;
+  border: 1px solid #D6D0C8;
+  border-radius: 12px;
+  padding: 2rem;
+  
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+/* --- Liste infos --- */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+ul li::marker {
+  color: #D4527A;
+}
+
+strong {
+  color: #2d5a3d;
+}
+
+/* --- Bouton déconnexion --- */
+.btn-deconnexion {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 2rem auto;
+  padding: 10px 24px;
+  background: none;
+  border: 1px solid #D6D0C8;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #3D3428;
+  font-family: Arial, sans-serif;
+  transition: all 0.5s linear;
+}
+
+.btn-deconnexion:hover {
+  background: #fdecea;
+  color: #c0392b;
+  border-color: #c0392b;
+}

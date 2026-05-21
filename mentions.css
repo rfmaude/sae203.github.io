@@ -1,0 +1,57 @@
+/* Style général pour la page */
+body {
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteneur des mentions légales */
+.legal-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* En-tête */
+.legal-container h1 {
+  color: #2d5a3d; /* Vert foncé comme dans l'image */
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* Sous-titres */
+.legal-container h2 {
+  color: #2d5a3d;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+  margin-top: 25px;
+}
+
+/* Paragraphes */
+.legal-container p {
+  margin-bottom: 15px;
+}
+
+/* Lien */
+.legal-container a {
+  color: #2d5a3d;
+  text-decoration: none;
+}
+
+.legal-container a:hover {
+  text-decoration: underline;
+}
+
+/* Date de mise à jour */
+.last-updated {
+  text-align: right;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 30px;
+}

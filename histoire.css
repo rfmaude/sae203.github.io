@@ -1,0 +1,26 @@
+/*Main*/
+.devanture-img{
+    width: 650px;
+    border-radius: 10px;
+    height: 400px;
+    object-fit: cover ;
+    display: block;
+    margin: auto;
+}
+
+strong {
+  color: #2d5a3d;
+}
+
+main p {
+    margin-left:2vw;
+}
+
+h1{
+    margin-left:1vw;
+}
+
+/* Pour toutes les listes non ordonnées */
+ul li::marker {
+  color: #D4527A;
+}

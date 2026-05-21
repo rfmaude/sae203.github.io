@@ -1,0 +1,84 @@
+/* conseil */
+.conseil p {
+    margin-top: 2vh;
+    margin-left: 2vw;
+    font-size: 17px;
+}
+
+.carrouPdtAccessoire {
+    margin: 3vh 2vw 0 2vw;
+    border: 2px #2d6844 solid;
+    border-radius: 25px;
+    display: flex;
+    width: clamp(200px, 80vw, 800px);
+    height: clamp(200px, 450vh, 450px);
+    background-color: rgba(245, 222, 179, 0.785);
+}
+
+.carrouPdtAccessoire img {
+    margin: 6px;
+    width: clamp(150px, 30vw, 300px);
+    height: clamp(150px, 30vh, 300px);
+    border: 1px black solid;
+    border-radius: 25px;
+    object-fit: cover;
+    align-self: center;
+}
+
+fieldset {
+    display: block;
+    border-radius: 8px;
+}
+
+#green {
+    background-color: #7dab8a;
+}
+
+#red {
+    background-color: #e07b7b;
+}
+
+#yellow {
+    background-color: #e8c84a;
+}
+
+#blue {
+    background-color: #7a9cbf;
+}
+
+#green:checked {
+    background-color: #165f2e;
+    box-shadow: -3px 3px 1px #165f2ea3;
+}
+
+#red:checked {
+    background-color: #e33636;
+    box-shadow: -3px 3px 1px #e33636a3;
+}
+
+#yellow:checked {
+    background-color: #ffe600;
+    box-shadow: -3px 3px 1px #f5af0bd0;
+}
+
+#blue:checked {
+    background-color: #0082fb;
+    box-shadow: -3px 3px 1px #0082fba3;
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#size-select{
+    width : 9vw;
+    background-color: #fff9ef;
+    border : 1px solid rgba(0, 0, 0, 0.615);
+    border-radius: 5px;
+}
+
+
